@@ -7,6 +7,11 @@ protocol ServiceProtocol {
 
 final class Service : ServiceProtocol {
     func fetchMovies(onSuccess: @escaping (Movies?) -> (), onError: @escaping (AFError) -> ()) {
-        ServiceManager.shared.fetch(path: <#T##String#>, onSuccess: <#T##(Decodable & Encodable) -> ()#>, onError: <#T##(AFError) -> ()#>)
+        ServiceManager.shared.fetch(path: Constant.ServiceEndPoint.moviesServiceEndPoint()) { (response : Movies) in
+            onSuccess(response)
+        } onError: { error in
+            onError(error)
+        }
+
     }
 }

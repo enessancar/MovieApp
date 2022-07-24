@@ -18,6 +18,8 @@
 		EC973F6C288DCAD900E81856 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC973F6B288DCAD900E81856 /* MovieModel.swift */; };
 		EC973F6E288DCBFA00E81856 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC973F6D288DCBFA00E81856 /* ServiceManager.swift */; };
 		EC973F70288DD24500E81856 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC973F6F288DD24500E81856 /* Webservice.swift */; };
+		EC973F73288DD88600E81856 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC973F72288DD88600E81856 /* Constant.swift */; };
+		EC973F75288DD8AE00E81856 /* ServiceConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC973F74288DD8AE00E81856 /* ServiceConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		EC973F6B288DCAD900E81856 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		EC973F6D288DCBFA00E81856 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 		EC973F6F288DD24500E81856 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		EC973F72288DD88600E81856 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		EC973F74288DD8AE00E81856 /* ServiceConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 		EC12E5EE2886EB1100BB5457 /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
+				EC973F71288DD86200E81856 /* Constant */,
 				EC12E60F2886F59500BB5457 /* Model */,
 				EC12E60B2886F41F00BB5457 /* Service */,
 				EC12E6082886EE7300BB5457 /* Support */,
@@ -175,6 +180,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EC973F71288DD86200E81856 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				EC973F72288DD88600E81856 /* Constant.swift */,
+				EC973F74288DD8AE00E81856 /* ServiceConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -255,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC973F73288DD88600E81856 /* Constant.swift in Sources */,
 				EC973F6C288DCAD900E81856 /* MovieModel.swift in Sources */,
 				EC12E60A2886F03300BB5457 /* MovieHomeController.swift in Sources */,
+				EC973F75288DD8AE00E81856 /* ServiceConstant.swift in Sources */,
 				EC973F70288DD24500E81856 /* Webservice.swift in Sources */,
 				EC12E5F02886EB1100BB5457 /* AppDelegate.swift in Sources */,
 				EC12E5F22886EB1100BB5457 /* SceneDelegate.swift in Sources */,
