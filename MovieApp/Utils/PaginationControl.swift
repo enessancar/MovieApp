@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct PaginationControl {
+    var shouldDownloadMore = false
+    var page = 1
+}

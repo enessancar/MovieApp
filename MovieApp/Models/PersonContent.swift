@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct PersonContent: Decodable {
+    let cast, crew: [ContentResult]
+}
