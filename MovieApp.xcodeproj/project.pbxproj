@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		EC5AA2B52ACC6A2F001545C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2B42ACC6A2F001545C9 /* AppDelegate.swift */; };
 		EC5AA2B72ACC6A2F001545C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2B62ACC6A2F001545C9 /* SceneDelegate.swift */; };
-		EC5AA2B92ACC6A2F001545C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2B82ACC6A2F001545C9 /* ViewController.swift */; };
-		EC5AA2BC2ACC6A2F001545C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5AA2BA2ACC6A2F001545C9 /* Main.storyboard */; };
 		EC5AA2BE2ACC6A31001545C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5AA2BD2ACC6A31001545C9 /* Assets.xcassets */; };
 		EC5AA2C12ACC6A31001545C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5AA2BF2ACC6A31001545C9 /* LaunchScreen.storyboard */; };
+		EC5AA2CA2ACC6AB9001545C9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC5AA2C92ACC6AB9001545C9 /* SnapKit */; };
+		EC5AA2CC2ACC6AB9001545C9 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = EC5AA2CB2ACC6AB9001545C9 /* SnapKit-Dynamic */; };
+		EC5AA2DA2ACC6C8C001545C9 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2D92ACC6C8C001545C9 /* UIView+Ext.swift */; };
+		EC5AA2DC2ACC6CB9001545C9 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2DB2ACC6CB9001545C9 /* UILabel+Ext.swift */; };
+		EC5AA2DE2ACC6CE0001545C9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2DD2ACC6CE0001545C9 /* TabBarController.swift */; };
+		EC5AA2E02ACC6DE0001545C9 /* MoviesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2DF2ACC6DE0001545C9 /* MoviesVC.swift */; };
+		EC5AA2E22ACD433B001545C9 /* ShowsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2E12ACD433B001545C9 /* ShowsVC.swift */; };
+		EC5AA2E42ACD4346001545C9 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2E32ACD4346001545C9 /* SearchVC.swift */; };
+		EC5AA2E62ACD435E001545C9 /* WatchlistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2E52ACD435E001545C9 /* WatchlistVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC5AA2B12ACC6A2F001545C9 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5AA2B42ACC6A2F001545C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC5AA2B62ACC6A2F001545C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC5AA2B82ACC6A2F001545C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC5AA2BB2ACC6A2F001545C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC5AA2BD2ACC6A31001545C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5AA2C02ACC6A31001545C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC5AA2C22ACC6A31001545C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5AA2D92ACC6C8C001545C9 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		EC5AA2DB2ACC6CB9001545C9 /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
+		EC5AA2DD2ACC6CE0001545C9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		EC5AA2DF2ACC6DE0001545C9 /* MoviesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesVC.swift; sourceTree = "<group>"; };
+		EC5AA2E12ACD433B001545C9 /* ShowsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsVC.swift; sourceTree = "<group>"; };
+		EC5AA2E32ACD4346001545C9 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		EC5AA2E52ACD435E001545C9 /* WatchlistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5AA2CA2ACC6AB9001545C9 /* SnapKit in Frameworks */,
+				EC5AA2CC2ACC6AB9001545C9 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,116 @@
 		EC5AA2B32ACC6A2F001545C9 /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
-				EC5AA2B42ACC6A2F001545C9 /* AppDelegate.swift */,
-				EC5AA2B62ACC6A2F001545C9 /* SceneDelegate.swift */,
-				EC5AA2B82ACC6A2F001545C9 /* ViewController.swift */,
-				EC5AA2BA2ACC6A2F001545C9 /* Main.storyboard */,
-				EC5AA2BD2ACC6A31001545C9 /* Assets.xcassets */,
-				EC5AA2BF2ACC6A31001545C9 /* LaunchScreen.storyboard */,
+				EC5AA2D82ACC6BE0001545C9 /* Extensions */,
+				EC5AA2D72ACC6BD8001545C9 /* Utils */,
+				EC5AA2D62ACC6BCF001545C9 /* Managers */,
+				EC5AA2D52ACC6BBF001545C9 /* Models */,
+				EC5AA2CF2ACC6B4B001545C9 /* CustomViews */,
+				EC5AA2CE2ACC6B29001545C9 /* Screens */,
+				EC5AA2CD2ACC6B0C001545C9 /* Support */,
 				EC5AA2C22ACC6A31001545C9 /* Info.plist */,
 			);
 			path = MovieApp;
+			sourceTree = "<group>";
+		};
+		EC5AA2CD2ACC6B0C001545C9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				EC5AA2B42ACC6A2F001545C9 /* AppDelegate.swift */,
+				EC5AA2B62ACC6A2F001545C9 /* SceneDelegate.swift */,
+				EC5AA2BD2ACC6A31001545C9 /* Assets.xcassets */,
+				EC5AA2BF2ACC6A31001545C9 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		EC5AA2CE2ACC6B29001545C9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EC5AA2DF2ACC6DE0001545C9 /* MoviesVC.swift */,
+				EC5AA2E12ACD433B001545C9 /* ShowsVC.swift */,
+				EC5AA2E32ACD4346001545C9 /* SearchVC.swift */,
+				EC5AA2E52ACD435E001545C9 /* WatchlistVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EC5AA2CF2ACC6B4B001545C9 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EC5AA2D42ACC6BAD001545C9 /* Views */,
+				EC5AA2D32ACC6BA3001545C9 /* ImageView */,
+				EC5AA2D22ACC6B97001545C9 /* Labels */,
+				EC5AA2D12ACC6B84001545C9 /* Cells */,
+				EC5AA2D02ACC6B7A001545C9 /* ViewControllers */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		EC5AA2D02ACC6B7A001545C9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC5AA2DD2ACC6CE0001545C9 /* TabBarController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EC5AA2D12ACC6B84001545C9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EC5AA2D22ACC6B97001545C9 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		EC5AA2D32ACC6BA3001545C9 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		EC5AA2D42ACC6BAD001545C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC5AA2D52ACC6BBF001545C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC5AA2D62ACC6BCF001545C9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EC5AA2D72ACC6BD8001545C9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EC5AA2D82ACC6BE0001545C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EC5AA2D92ACC6C8C001545C9 /* UIView+Ext.swift */,
+				EC5AA2DB2ACC6CB9001545C9 /* UILabel+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +198,10 @@
 			dependencies = (
 			);
 			name = MovieApp;
+			packageProductDependencies = (
+				EC5AA2C92ACC6AB9001545C9 /* SnapKit */,
+				EC5AA2CB2ACC6AB9001545C9 /* SnapKit-Dynamic */,
+			);
 			productName = MovieApp;
 			productReference = EC5AA2B12ACC6A2F001545C9 /* MovieApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +230,9 @@
 				Base,
 			);
 			mainGroup = EC5AA2A82ACC6A2E001545C9;
+			packageReferences = (
+				EC5AA2C82ACC6AB9001545C9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = EC5AA2B22ACC6A2F001545C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +249,6 @@
 			files = (
 				EC5AA2C12ACC6A31001545C9 /* LaunchScreen.storyboard in Resources */,
 				EC5AA2BE2ACC6A31001545C9 /* Assets.xcassets in Resources */,
-				EC5AA2BC2ACC6A2F001545C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +259,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC5AA2B92ACC6A2F001545C9 /* ViewController.swift in Sources */,
+				EC5AA2E62ACD435E001545C9 /* WatchlistVC.swift in Sources */,
+				EC5AA2E42ACD4346001545C9 /* SearchVC.swift in Sources */,
+				EC5AA2E22ACD433B001545C9 /* ShowsVC.swift in Sources */,
 				EC5AA2B52ACC6A2F001545C9 /* AppDelegate.swift in Sources */,
 				EC5AA2B72ACC6A2F001545C9 /* SceneDelegate.swift in Sources */,
+				EC5AA2DC2ACC6CB9001545C9 /* UILabel+Ext.swift in Sources */,
+				EC5AA2DE2ACC6CE0001545C9 /* TabBarController.swift in Sources */,
+				EC5AA2DA2ACC6C8C001545C9 /* UIView+Ext.swift in Sources */,
+				EC5AA2E02ACC6DE0001545C9 /* MoviesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC5AA2BA2ACC6A2F001545C9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC5AA2BB2ACC6A2F001545C9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC5AA2BF2ACC6A31001545C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +416,6 @@
 				INFOPLIST_FILE = MovieApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,9 +425,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = enes.MovieApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,7 +446,6 @@
 				INFOPLIST_FILE = MovieApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,9 +455,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = enes.MovieApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +486,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC5AA2C82ACC6AB9001545C9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC5AA2C92ACC6AB9001545C9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC5AA2C82ACC6AB9001545C9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		EC5AA2CB2ACC6AB9001545C9 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC5AA2C82ACC6AB9001545C9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC5AA2A92ACC6A2E001545C9 /* Project object */;
 }
