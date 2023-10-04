@@ -22,4 +22,8 @@ struct Cast: Codable {
         case profilePath = "profile_path"
         case character
     }
+    
+    var _profilePath: String {
+        profilePath ?? "N/A"
+    }
 }

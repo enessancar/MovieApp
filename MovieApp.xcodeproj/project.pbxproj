@@ -38,6 +38,7 @@
 		EC5AA3062ACDB9B6001545C9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3052ACDB9B6001545C9 /* NetworkManager.swift */; };
 		EC5AA30A2ACDBDB6001545C9 /* PosterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3092ACDBDB6001545C9 /* PosterImageView.swift */; };
 		EC5AA30C2ACDCB89001545C9 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA30B2ACDCB89001545C9 /* ContentCell.swift */; };
+		EC5AA30E2ACDD547001545C9 /* TopBilledCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA30D2ACDD547001545C9 /* TopBilledCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		EC5AA3052ACDB9B6001545C9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		EC5AA3092ACDBDB6001545C9 /* PosterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImageView.swift; sourceTree = "<group>"; };
 		EC5AA30B2ACDCB89001545C9 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		EC5AA30D2ACDD547001545C9 /* TopBilledCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBilledCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				EC5AA30B2ACDCB89001545C9 /* ContentCell.swift */,
+				EC5AA30D2ACDD547001545C9 /* TopBilledCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				EC5AA3022ACD7DAB001545C9 /* Video.swift in Sources */,
 				EC5AA2DE2ACC6CE0001545C9 /* TabBarController.swift in Sources */,
 				EC5AA2DA2ACC6C8C001545C9 /* UIView+Ext.swift in Sources */,
+				EC5AA30E2ACDD547001545C9 /* TopBilledCell.swift in Sources */,
 				EC5AA3002ACD7DA2001545C9 /* PersonContent.swift in Sources */,
 				EC5AA2FA2ACD7D85001545C9 /* CastModel.swift in Sources */,
 				EC5AA2EE2ACD7769001545C9 /* GFTitleLabel.swift in Sources */,

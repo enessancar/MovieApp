@@ -11,7 +11,7 @@ import SnapKit
 final class ContentCell: UICollectionViewCell {
     static let identifier = "ContentCell"
     
-    let posterImageView = PosterImageView(frame: .zero)
+    private let posterImageView = PosterImageView(frame: .zero)
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -28,7 +28,7 @@ final class ContentCell: UICollectionViewCell {
     }
     
     func set(content: ContentResult) {
-        posterImageView.downloadImage(urlString: ApiUrls.image(path: content.posterPath ?? "N/A"))
+        posterImageView.downloadImage(urlString: ApiUrls.image(path: content._posterPath))
     }
     
     private func configure() {

@@ -33,4 +33,8 @@ struct ContentResult: Decodable, Hashable{
         case title, name
         case voteAverage = "vote_average"
     }
+    
+    var _posterPath: String {
+        posterPath ?? "N/A"
+    }
 }
