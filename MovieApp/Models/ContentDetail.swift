@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ContentDetail: Decodable {
+struct ContentDetail: Codable {
     let id: Int?
     let title, name, overview, posterPath, releaseDate: String?
     let numberOfSeasons: Int?
@@ -81,7 +81,7 @@ struct ContentDetail: Decodable {
     }
 }
 
-struct Genre: Decodable {
+struct Genre: Codable {
     let id: Int?
     let name: String?
 }

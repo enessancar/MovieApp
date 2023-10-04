@@ -34,6 +34,7 @@
 		EC5AA2FE2ACD7D98001545C9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2FD2ACD7D98001545C9 /* Person.swift */; };
 		EC5AA3002ACD7DA2001545C9 /* PersonContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2FF2ACD7DA2001545C9 /* PersonContent.swift */; };
 		EC5AA3022ACD7DAB001545C9 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3012ACD7DAB001545C9 /* Video.swift */; };
+		EC5AA3042ACDB592001545C9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3032ACDB592001545C9 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		EC5AA2FD2ACD7D98001545C9 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		EC5AA2FF2ACD7DA2001545C9 /* PersonContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonContent.swift; sourceTree = "<group>"; };
 		EC5AA3012ACD7DAB001545C9 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		EC5AA3032ACDB592001545C9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 		EC5AA2D62ACC6BCF001545C9 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				EC5AA3032ACDB592001545C9 /* Store.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				EC5AA2F82ACD7D79001545C9 /* ContentDetail.swift in Sources */,
 				EC5AA2E62ACD435E001545C9 /* WatchlistVC.swift in Sources */,
 				EC5AA2E42ACD4346001545C9 /* SearchVC.swift in Sources */,
+				EC5AA3042ACDB592001545C9 /* Store.swift in Sources */,
 				EC5AA2FC2ACD7D8D001545C9 /* SearchModel.swift in Sources */,
 				EC5AA2F62ACD7D0D001545C9 /* CustomError.swift in Sources */,
 				EC5AA2E22ACD433B001545C9 /* ShowsVC.swift in Sources */,
