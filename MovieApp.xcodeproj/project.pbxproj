@@ -20,6 +20,7 @@
 		EC5AA2E22ACD433B001545C9 /* ShowsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2E12ACD433B001545C9 /* ShowsVC.swift */; };
 		EC5AA2E42ACD4346001545C9 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2E32ACD4346001545C9 /* SearchVC.swift */; };
 		EC5AA2E62ACD435E001545C9 /* WatchlistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2E52ACD435E001545C9 /* WatchlistVC.swift */; };
+		EC5AA2E82ACD49EC001545C9 /* ApiUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA2E72ACD49EC001545C9 /* ApiUrls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		EC5AA2E12ACD433B001545C9 /* ShowsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsVC.swift; sourceTree = "<group>"; };
 		EC5AA2E32ACD4346001545C9 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		EC5AA2E52ACD435E001545C9 /* WatchlistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistVC.swift; sourceTree = "<group>"; };
+		EC5AA2E72ACD49EC001545C9 /* ApiUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUrls.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 		EC5AA2D72ACC6BD8001545C9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				EC5AA2E72ACD49EC001545C9 /* ApiUrls.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				EC5AA2E42ACD4346001545C9 /* SearchVC.swift in Sources */,
 				EC5AA2E22ACD433B001545C9 /* ShowsVC.swift in Sources */,
 				EC5AA2B52ACC6A2F001545C9 /* AppDelegate.swift in Sources */,
+				EC5AA2E82ACD49EC001545C9 /* ApiUrls.swift in Sources */,
 				EC5AA2B72ACC6A2F001545C9 /* SceneDelegate.swift in Sources */,
 				EC5AA2DC2ACC6CB9001545C9 /* UILabel+Ext.swift in Sources */,
 				EC5AA2DE2ACC6CE0001545C9 /* TabBarController.swift in Sources */,
