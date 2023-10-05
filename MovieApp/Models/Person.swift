@@ -34,4 +34,8 @@ struct Person: Decodable {
         }
         return placeOfBirth
     }
+    
+    var _profilePath: String {
+        profilePath ?? "N/A"
+    }
 }
