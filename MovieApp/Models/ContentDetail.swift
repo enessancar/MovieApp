@@ -79,6 +79,10 @@ struct ContentDetail: Codable {
         
         return numberFormatter.string(from: NSNumber(value: voteAverage)) ?? "N/A"
     }
+    
+    var _posterPath: String {
+        posterPath ?? "N/A"
+    }
 }
 
 struct Genre: Codable {
