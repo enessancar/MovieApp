@@ -41,6 +41,12 @@
 		EC5AA30E2ACDD547001545C9 /* TopBilledCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA30D2ACDD547001545C9 /* TopBilledCell.swift */; };
 		EC5AA3102ACE93FE001545C9 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA30F2ACE93FE001545C9 /* HeaderCollectionReusableView.swift */; };
 		EC5AA3122ACE957F001545C9 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3112ACE957F001545C9 /* SearchCell.swift */; };
+		EC5AA3142ACEBB93001545C9 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3132ACEBB93001545C9 /* SectionView.swift */; };
+		EC5AA3162ACEBB9A001545C9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3152ACEBB9A001545C9 /* HeaderView.swift */; };
+		EC5AA3182ACEBBA4001545C9 /* PersonHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3172ACEBBA4001545C9 /* PersonHeaderView.swift */; };
+		EC5AA31A2ACEBBC7001545C9 /* LabelWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3192ACEBBC7001545C9 /* LabelWithImage.swift */; };
+		EC5AA31C2ACEBBD0001545C9 /* CastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA31B2ACEBBD0001545C9 /* CastView.swift */; };
+		EC5AA31E2ACEBBF7001545C9 /* EmptyWatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA31D2ACEBBF7001545C9 /* EmptyWatchlistView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +84,12 @@
 		EC5AA30D2ACDD547001545C9 /* TopBilledCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBilledCell.swift; sourceTree = "<group>"; };
 		EC5AA30F2ACE93FE001545C9 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		EC5AA3112ACE957F001545C9 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		EC5AA3132ACEBB93001545C9 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		EC5AA3152ACEBB9A001545C9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		EC5AA3172ACEBBA4001545C9 /* PersonHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonHeaderView.swift; sourceTree = "<group>"; };
+		EC5AA3192ACEBBC7001545C9 /* LabelWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelWithImage.swift; sourceTree = "<group>"; };
+		EC5AA31B2ACEBBD0001545C9 /* CastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastView.swift; sourceTree = "<group>"; };
+		EC5AA31D2ACEBBF7001545C9 /* EmptyWatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyWatchlistView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +209,12 @@
 		EC5AA2D42ACC6BAD001545C9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EC5AA3132ACEBB93001545C9 /* SectionView.swift */,
+				EC5AA3152ACEBB9A001545C9 /* HeaderView.swift */,
+				EC5AA3172ACEBBA4001545C9 /* PersonHeaderView.swift */,
+				EC5AA3192ACEBBC7001545C9 /* LabelWithImage.swift */,
+				EC5AA31B2ACEBBD0001545C9 /* CastView.swift */,
+				EC5AA31D2ACEBBF7001545C9 /* EmptyWatchlistView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -332,10 +350,14 @@
 				EC5AA2E22ACD433B001545C9 /* ShowsVC.swift in Sources */,
 				EC5AA2F42ACD7A81001545C9 /* Constants.swift in Sources */,
 				EC5AA2B52ACC6A2F001545C9 /* AppDelegate.swift in Sources */,
+				EC5AA31A2ACEBBC7001545C9 /* LabelWithImage.swift in Sources */,
 				EC5AA2E82ACD49EC001545C9 /* ApiUrls.swift in Sources */,
 				EC5AA2B72ACC6A2F001545C9 /* SceneDelegate.swift in Sources */,
+				EC5AA31C2ACEBBD0001545C9 /* CastView.swift in Sources */,
 				EC5AA30A2ACDBDB6001545C9 /* PosterImageView.swift in Sources */,
+				EC5AA3142ACEBB93001545C9 /* SectionView.swift in Sources */,
 				EC5AA2EA2ACD756D001545C9 /* UIhelper.swift in Sources */,
+				EC5AA3162ACEBB9A001545C9 /* HeaderView.swift in Sources */,
 				EC5AA2DC2ACC6CB9001545C9 /* UILabel+Ext.swift in Sources */,
 				EC5AA3022ACD7DAB001545C9 /* Video.swift in Sources */,
 				EC5AA2DE2ACC6CE0001545C9 /* TabBarController.swift in Sources */,
@@ -343,8 +365,10 @@
 				EC5AA30E2ACDD547001545C9 /* TopBilledCell.swift in Sources */,
 				EC5AA3002ACD7DA2001545C9 /* PersonContent.swift in Sources */,
 				EC5AA3102ACE93FE001545C9 /* HeaderCollectionReusableView.swift in Sources */,
+				EC5AA3182ACEBBA4001545C9 /* PersonHeaderView.swift in Sources */,
 				EC5AA2FA2ACD7D85001545C9 /* CastModel.swift in Sources */,
 				EC5AA2EE2ACD7769001545C9 /* GFTitleLabel.swift in Sources */,
+				EC5AA31E2ACEBBF7001545C9 /* EmptyWatchlistView.swift in Sources */,
 				EC5AA2F22ACD7A47001545C9 /* PaginationControl.swift in Sources */,
 				EC5AA30C2ACDCB89001545C9 /* ContentCell.swift in Sources */,
 				EC5AA2F02ACD7933001545C9 /* GFBodyLabel.swift in Sources */,
