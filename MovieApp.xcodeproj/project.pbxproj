@@ -47,6 +47,9 @@
 		EC5AA31A2ACEBBC7001545C9 /* LabelWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3192ACEBBC7001545C9 /* LabelWithImage.swift */; };
 		EC5AA31C2ACEBBD0001545C9 /* CastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA31B2ACEBBD0001545C9 /* CastView.swift */; };
 		EC5AA31E2ACEBBF7001545C9 /* EmptyWatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA31D2ACEBBF7001545C9 /* EmptyWatchlistView.swift */; };
+		EC5AA3202ACF3B37001545C9 /* ContentDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA31F2ACF3B37001545C9 /* ContentDetailVC.swift */; };
+		EC5AA3222ACF3B43001545C9 /* PersonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3212ACF3B43001545C9 /* PersonDetailVC.swift */; };
+		EC5AA3242ACF3B58001545C9 /* DataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3232ACF3B58001545C9 /* DataLoadingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +93,9 @@
 		EC5AA3192ACEBBC7001545C9 /* LabelWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelWithImage.swift; sourceTree = "<group>"; };
 		EC5AA31B2ACEBBD0001545C9 /* CastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastView.swift; sourceTree = "<group>"; };
 		EC5AA31D2ACEBBF7001545C9 /* EmptyWatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyWatchlistView.swift; sourceTree = "<group>"; };
+		EC5AA31F2ACF3B37001545C9 /* ContentDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailVC.swift; sourceTree = "<group>"; };
+		EC5AA3212ACF3B43001545C9 /* PersonDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailVC.swift; sourceTree = "<group>"; };
+		EC5AA3232ACF3B58001545C9 /* DataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoadingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +180,9 @@
 			isa = PBXGroup;
 			children = (
 				EC5AA2DD2ACC6CE0001545C9 /* TabBarController.swift */,
+				EC5AA31F2ACF3B37001545C9 /* ContentDetailVC.swift */,
+				EC5AA3212ACF3B43001545C9 /* PersonDetailVC.swift */,
+				EC5AA3232ACF3B58001545C9 /* DataLoadingVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -352,8 +361,10 @@
 				EC5AA2B52ACC6A2F001545C9 /* AppDelegate.swift in Sources */,
 				EC5AA31A2ACEBBC7001545C9 /* LabelWithImage.swift in Sources */,
 				EC5AA2E82ACD49EC001545C9 /* ApiUrls.swift in Sources */,
+				EC5AA3222ACF3B43001545C9 /* PersonDetailVC.swift in Sources */,
 				EC5AA2B72ACC6A2F001545C9 /* SceneDelegate.swift in Sources */,
 				EC5AA31C2ACEBBD0001545C9 /* CastView.swift in Sources */,
+				EC5AA3202ACF3B37001545C9 /* ContentDetailVC.swift in Sources */,
 				EC5AA30A2ACDBDB6001545C9 /* PosterImageView.swift in Sources */,
 				EC5AA3142ACEBB93001545C9 /* SectionView.swift in Sources */,
 				EC5AA2EA2ACD756D001545C9 /* UIhelper.swift in Sources */,
@@ -368,6 +379,7 @@
 				EC5AA3182ACEBBA4001545C9 /* PersonHeaderView.swift in Sources */,
 				EC5AA2FA2ACD7D85001545C9 /* CastModel.swift in Sources */,
 				EC5AA2EE2ACD7769001545C9 /* GFTitleLabel.swift in Sources */,
+				EC5AA3242ACF3B58001545C9 /* DataLoadingVC.swift in Sources */,
 				EC5AA31E2ACEBBF7001545C9 /* EmptyWatchlistView.swift in Sources */,
 				EC5AA2F22ACD7A47001545C9 /* PaginationControl.swift in Sources */,
 				EC5AA30C2ACDCB89001545C9 /* ContentCell.swift in Sources */,
