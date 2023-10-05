@@ -8,129 +8,56 @@
 import UIKit
 import SnapKit
 
-final class HeaderView: UIView {
-    
-    private var superContainerView: UIStackView!
-    
-    private var posterImageView = PosterImageView(frame: .zero)
-    private var titleLabel = GFTitleLabel(textAlignment: .left, fontSize: 22)
-    
-    private var attributesStackView = UIStackView(frame: .zero)
-    private var dateLabel  = LabelWithImage()
-    private var genreLabel = LabelWithImage()
-    private var runtimeLabel = LabelWithImage()
-    private var statusLabel = LabelWithImage()
-    private var ratingLabel = LabelWithImage()
-    
-    let padding: CGFloat = 10
+final class SectionView: UIStackView {
+
+    private var containerStackView: UIStackView!
+    private var titleLabel = GFTitleLabel(textAlignment: .left, fontSize: 26)
+    var collectionView: UICollectionView!
+    private var title: String!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
-    required init?(coder: NSCoder) {
+    required init(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    convenience init(superContainerView: UIStackView) {
+    convenience init(containerStackView: UIStackView, title: String) {
         self.init(frame: .zero)
-        self.superContainerView = superContainerView
+        self.containerStackView = containerStackView
+        self.title = title
         
-        configureView()
-        
-        configurePosterImageView()
-        configureTitleLabel()
-        
-        configureAttributesStackView()
-        configureDateLabel()
-        configureGenreLabel()
-        configureRuntimeLabel()
+        configureSectionView()
+        configureTitle()
+        configureCollectionView()
     }
     
-    public func setHeaderView(contentDetail: ContentDetail) {
-        posterImageView.downloadImage(urlString: ApiUrls.image(path: contentDetail._posterPath))
+    private func configureSectionView() {
+        containerStackView.addArrangedSubview(self)
         
-        if contentDetail.isMovie {
-            configureRatingLabel()
-            
-            titleLabel.text = contentDetail.title
-            dateLabel.setLabelwithImage(text: contentDetail.releaseDateString, systemImage: SystemImages.calendarImage)
-            genreLabel.setLabelwithImage(text: contentDetail.genresString, systemImage: SystemImages.filmImage)
-            runtimeLabel.setLabelwithImage(text: contentDetail.runtimeString, systemImage: SystemImages.clockImage)
-            ratingLabel.setLabelwithImage(text: contentDetail.rating, systemImage: SystemImages.staurImage)
-        } else {
-            configureStatusLabel()
-            configureRatingLabel()
-            
-            titleLabel.text = contentDetail.name
-            dateLabel.setLabelwithImage(text: contentDetail.startEndDate, systemImage: SystemImages.calendarImage)
-            genreLabel.setLabelwithImage(text: contentDetail.genresString, systemImage: SystemImages.filmImage)
-            runtimeLabel.setLabelwithImage(text: contentDetail.season, systemImage: SystemImages.clockImage)
-            statusLabel.setLabelwithImage(text: contentDetail.status, systemImage: SystemImages.infoImage)
-            ratingLabel.setLabelwithImage(text: contentDetail.rating, systemImage: SystemImages.staurImage)
+        translatesAutoresizingMaskIntoConstraints = false
+        
+        axis = .vertical
+        distribution = .fill
+        spacing = 5
+    }
+    
+    private func configureTitle() {
+        addArrangedSubview(titleLabel)
+        titleLabel.text = title
+    }
+    
+    private func configureCollectionView() {
+        collectionView = UICollectionView(frame: .zero, collectionViewLayout: UIhelper.createFlowLayout())
+        addArrangedSubview(collectionView)
+        
+        collectionView.backgroundColor = .systemBackground
+        collectionView.showsHorizontalScrollIndicator = false
+        collectionView.register(ContentCell.self, forCellWithReuseIdentifier: ContentCell.identifier)
+        
+        collectionView.snp.makeConstraints { make in
+            make.height.equalTo(300)
         }
-    }
-    
-    private func configureView() {
-        superContainerView.addArrangedSubview(self)
-        self.snp.makeConstraints { make in
-            make.height.equalTo(250)
-        }
-    }
-    
-    private func configurePosterImageView() {
-        addSubview(posterImageView)
-        
-        posterImageView.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(padding)
-            make.leading.equalToSuperview()
-            make.width.equalTo(150)
-            make.height.equalTo(225)
-        }
-        posterImageView.backgroundColor = .secondarySystemBackground
-    }
-    
-    private func configureTitleLabel() {
-        addSubview(titleLabel)
-        titleLabel.numberOfLines = 2
-        
-        titleLabel.snp.makeConstraints { make in
-            make.top.equalTo(posterImageView.snp.top)
-            make.leading.equalTo(posterImageView.snp.trailing).offset(2 * padding)
-            make.trailing.equalToSuperview().offset(-padding)
-        }
-    }
-    
-    private func configureAttributesStackView() {
-        addSubviews(attributesStackView)
-        
-        attributesStackView.axis = .vertical
-        attributesStackView.distribution = .fill
-        attributesStackView.spacing = padding / 2
-        
-        attributesStackView.snp.makeConstraints { make in
-            make.top.equalTo(titleLabel.snp.bottom).offset(2 * padding)
-            make.leading.trailing.equalTo(titleLabel)
-        }
-    }
-    
-    private func configureDateLabel() {
-        attributesStackView.addArrangedSubview(dateLabel)
-    }
-    
-    private func configureGenreLabel() {
-        attributesStackView.addArrangedSubview(genreLabel)
-    }
-    
-    private func configureRuntimeLabel() {
-        attributesStackView.addArrangedSubview(runtimeLabel)
-    }
-    
-    private func configureStatusLabel() {
-        attributesStackView.addArrangedSubview(statusLabel)
-    }
-    
-    private func configureRatingLabel() {
-        attributesStackView.addArrangedSubview(ratingLabel)
     }
 }
