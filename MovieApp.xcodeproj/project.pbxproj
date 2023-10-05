@@ -39,6 +39,8 @@
 		EC5AA30A2ACDBDB6001545C9 /* PosterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3092ACDBDB6001545C9 /* PosterImageView.swift */; };
 		EC5AA30C2ACDCB89001545C9 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA30B2ACDCB89001545C9 /* ContentCell.swift */; };
 		EC5AA30E2ACDD547001545C9 /* TopBilledCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA30D2ACDD547001545C9 /* TopBilledCell.swift */; };
+		EC5AA3102ACE93FE001545C9 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA30F2ACE93FE001545C9 /* HeaderCollectionReusableView.swift */; };
+		EC5AA3122ACE957F001545C9 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3112ACE957F001545C9 /* SearchCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,8 @@
 		EC5AA3092ACDBDB6001545C9 /* PosterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImageView.swift; sourceTree = "<group>"; };
 		EC5AA30B2ACDCB89001545C9 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
 		EC5AA30D2ACDD547001545C9 /* TopBilledCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBilledCell.swift; sourceTree = "<group>"; };
+		EC5AA30F2ACE93FE001545C9 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		EC5AA3112ACE957F001545C9 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 			children = (
 				EC5AA30B2ACDCB89001545C9 /* ContentCell.swift */,
 				EC5AA30D2ACDD547001545C9 /* TopBilledCell.swift */,
+				EC5AA30F2ACE93FE001545C9 /* HeaderCollectionReusableView.swift */,
+				EC5AA3112ACE957F001545C9 /* SearchCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -317,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC5AA2F82ACD7D79001545C9 /* ContentDetail.swift in Sources */,
+				EC5AA3122ACE957F001545C9 /* SearchCell.swift in Sources */,
 				EC5AA2E62ACD435E001545C9 /* WatchlistVC.swift in Sources */,
 				EC5AA2E42ACD4346001545C9 /* SearchVC.swift in Sources */,
 				EC5AA3042ACDB592001545C9 /* Store.swift in Sources */,
@@ -335,6 +342,7 @@
 				EC5AA2DA2ACC6C8C001545C9 /* UIView+Ext.swift in Sources */,
 				EC5AA30E2ACDD547001545C9 /* TopBilledCell.swift in Sources */,
 				EC5AA3002ACD7DA2001545C9 /* PersonContent.swift in Sources */,
+				EC5AA3102ACE93FE001545C9 /* HeaderCollectionReusableView.swift in Sources */,
 				EC5AA2FA2ACD7D85001545C9 /* CastModel.swift in Sources */,
 				EC5AA2EE2ACD7769001545C9 /* GFTitleLabel.swift in Sources */,
 				EC5AA2F22ACD7A47001545C9 /* PaginationControl.swift in Sources */,

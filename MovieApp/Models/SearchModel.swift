@@ -46,6 +46,10 @@ struct SearchResult: Decodable {
         guard let firstAirDate else { return "N/A" }
         return String(firstAirDate.prefix(4))
     }
+    
+    var _posterPath: String {
+        posterPath ?? "N/A"
+    }
 }
 
 enum MediaType: String, Decodable {
