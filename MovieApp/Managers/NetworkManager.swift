@@ -133,4 +133,28 @@ final class NetworkingManager {
             }
         }.resume()
     }
+    
+    func downloadVideo(urlString: String, completion: @escaping(VideoResult?) -> ()) {
+        guard let url = URL(string: urlString) else {
+            completion(nil)
+            return
+        }
+        URLSession.shared.dataTask(with: url) { data, _, error in
+            guard let data, error == nil else {
+                completion(nil)
+                return
+            }
+            do {
+                let video = try JSONDecoder().decode(Video.self, from: data)
+                guard let videoResults = video.results else { return }
+                guard let trailer = videoResults.first(where: { $0.type == "Trailer"}) else {
+                    completion(nil)
+                    return
+                }
+                completion(trailer)
+            } catch {
+                completion(error)
+            }
+        }.resume()
+    }
 }
