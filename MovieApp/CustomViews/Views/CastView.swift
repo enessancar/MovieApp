@@ -12,7 +12,7 @@ final class CastView: UIStackView {
     
     private var superContainerView: UIStackView!
     private let titleLabel = GFTitleLabel(textAlignment: .left, fontSize: 26)
-    private var collectionView: UICollectionView!
+    var collectionView: UICollectionView!
     
     override init(frame: CGRect) {
         super.init(frame: frame)

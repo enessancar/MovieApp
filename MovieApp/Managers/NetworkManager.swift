@@ -157,4 +157,24 @@ final class NetworkingManager {
             }
         }.resume()
     }
+    
+    func downloadCast(urlString: String, completion: @escaping(Result<[Cast], CustomError>) -> ()) {
+        guard let url = URL(string: urlString) else {
+            completion(.failure(.invalidURL))
+            return
+        }
+        URLSession.shared.dataTask(with: url) { data, _, error in
+            guard let data, error == nil else {
+                completion(.failure(.invalidData))
+                return
+            }
+            do {
+                let castModel = try JSONDecoder().decode(CastModel.self, from: data)
+                guard let cast = castModel.cast else { return }
+                completion(.success(cast))
+            } catch {
+                completion(.failure(.unableToParseFromJSON))
+            }
+        }.resume()
+    }
 }
