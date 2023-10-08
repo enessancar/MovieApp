@@ -50,6 +50,7 @@
 		EC5AA3202ACF3B37001545C9 /* ContentDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA31F2ACF3B37001545C9 /* ContentDetailVC.swift */; };
 		EC5AA3222ACF3B43001545C9 /* PersonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3212ACF3B43001545C9 /* PersonDetailVC.swift */; };
 		EC5AA3242ACF3B58001545C9 /* DataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5AA3232ACF3B58001545C9 /* DataLoadingVC.swift */; };
+		EC6D00712AD349BE0096AB85 /* SearchResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6D00702AD349BE0096AB85 /* SearchResultVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +97,7 @@
 		EC5AA31F2ACF3B37001545C9 /* ContentDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailVC.swift; sourceTree = "<group>"; };
 		EC5AA3212ACF3B43001545C9 /* PersonDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailVC.swift; sourceTree = "<group>"; };
 		EC5AA3232ACF3B58001545C9 /* DataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoadingVC.swift; sourceTree = "<group>"; };
+		EC6D00702AD349BE0096AB85 /* SearchResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				EC5AA31F2ACF3B37001545C9 /* ContentDetailVC.swift */,
 				EC5AA3212ACF3B43001545C9 /* PersonDetailVC.swift */,
 				EC5AA3232ACF3B58001545C9 /* DataLoadingVC.swift */,
+				EC6D00702AD349BE0096AB85 /* SearchResultVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			files = (
 				EC5AA2F82ACD7D79001545C9 /* ContentDetail.swift in Sources */,
 				EC5AA3122ACE957F001545C9 /* SearchCell.swift in Sources */,
+				EC6D00712AD349BE0096AB85 /* SearchResultVC.swift in Sources */,
 				EC5AA2E62ACD435E001545C9 /* WatchlistVC.swift in Sources */,
 				EC5AA2E42ACD4346001545C9 /* SearchVC.swift in Sources */,
 				EC5AA3042ACDB592001545C9 /* Store.swift in Sources */,
