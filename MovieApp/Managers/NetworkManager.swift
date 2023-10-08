@@ -153,7 +153,7 @@ final class NetworkingManager {
                 }
                 completion(trailer)
             } catch {
-                completion(error)
+                completion(nil)
             }
         }.resume()
     }
