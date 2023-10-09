@@ -146,7 +146,10 @@ final class NetworkingManager {
             }
             do {
                 let video = try JSONDecoder().decode(Video.self, from: data)
-                guard let videoResults = video.results else { return }
+                guard let videoResults = video.results else {
+                    completion(nil)
+                    return
+                }
                 guard let trailer = videoResults.first(where: { $0.type == "Trailer"}) else {
                     completion(nil)
                     return
@@ -155,7 +158,8 @@ final class NetworkingManager {
             } catch {
                 completion(nil)
             }
-        }.resume()
+        }
+        .resume()
     }
     
     func downloadCast(urlString: String, completion: @escaping(Result<[Cast], CustomError>) -> ()) {
